@@ -1,4 +1,4 @@
-# Automatic Product Offering Machine
+# Automatic Product Offering Machine 🥤🍹🍺 🤖
 
 A digital systems project implemented on an FPGA board that simulates a beverage vending machine with multiple operation modes, product selections, and size options.
 
