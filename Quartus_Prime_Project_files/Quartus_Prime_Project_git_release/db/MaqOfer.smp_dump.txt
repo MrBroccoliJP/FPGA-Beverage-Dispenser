@@ -1,0 +1,30 @@
+
+State Machine - |MAQTOP|TwoTimers:inst|timerFSM:inst1|state
+Name state.running state.t_done state.idle 
+state.idle 0 0 0 
+state.t_done 0 1 1 
+state.running 1 0 1 
+
+State Machine - |MAQTOP|TwoTimers:inst|timerFSM:inst|state
+Name state.running state.t_done state.idle 
+state.idle 0 0 0 
+state.t_done 0 1 1 
+state.running 1 0 1 
+
+State Machine - |MAQTOP|MaqOferFSM:MAIN_FSM|state
+Name state.output_orange state.output_water state.output_coke state.tam_10 state.tam_50 state.tam_33 state.tam_25 state.menu_size state.orange state.water state.coke state.done state.out_of_service state.menu_drink state.start 
+state.start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.menu_drink 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.out_of_service 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.done 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.coke 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.water 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.orange 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.menu_size 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.tam_25 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.tam_33 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.tam_50 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.tam_10 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.output_coke 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.output_water 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.output_orange 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
